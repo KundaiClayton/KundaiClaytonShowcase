@@ -10,6 +10,9 @@ module.exports = {
     description: config.defaultDescription,
     author: config.author,
   },
+
+    pathPrefix: "/showcase",
+  
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
